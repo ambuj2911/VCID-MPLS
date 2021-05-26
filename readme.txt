@@ -1,4 +1,4 @@
-Assignment By Ambuj Guhey 204101005 and Himanshu Bisht 204101028
+Assignment By Ambuj Guhey 204101005.
 
 Compile the program in c++ Compiler.
 Use linux to execute easily on command line inputs.
