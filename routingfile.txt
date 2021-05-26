@@ -1,0 +1,574 @@
+For Source Node 0 the routing table is:
+Destination: 1 
+First Shortest Path: 0 1 	 Cost: 1
+Second Shortest Path: 0 2 1 	 Cost: 2
+Destination: 2 
+First Shortest Path: 0 2 	 Cost: 1
+Second Shortest Path: 0 1 2 	 Cost: 2
+Destination: 3 
+First Shortest Path: 0 3 	 Cost: 1
+Second Shortest Path: 0 2 5 4 3 	 Cost: 4
+Destination: 4 
+First Shortest Path: 0 3 4 	 Cost: 2
+Second Shortest Path: 0 2 5 4 	 Cost: 3
+Destination: 5 
+First Shortest Path: 0 2 5 	 Cost: 2
+Second Shortest Path: 0 3 4 5 	 Cost: 3
+Destination: 6 
+First Shortest Path: 0 3 4 6 	 Cost: 3
+Second Shortest Path: 0 1 7 6 	 Cost: 3
+Destination: 7 
+First Shortest Path: 0 1 7 	 Cost: 2
+Second Shortest Path: 0 3 4 6 7 	 Cost: 4
+Destination: 8 
+First Shortest Path: 0 3 8 	 Cost: 2
+Second Shortest Path: 0 1 7 9 11 8 	 Cost: 5
+Destination: 9 
+First Shortest Path: 0 1 7 9 	 Cost: 3
+Second Shortest Path: 0 2 5 10 9 	 Cost: 4
+Destination: 10 
+First Shortest Path: 0 2 5 10 	 Cost: 3
+Second Shortest Path: 0 1 7 9 10 	 Cost: 4
+Destination: 11 
+First Shortest Path: 0 3 8 11 	 Cost: 3
+Second Shortest Path: 0 1 7 9 11 	 Cost: 4
+Destination: 12 
+First Shortest Path: 0 2 5 12 	 Cost: 3
+Second Shortest Path: 0 3 8 11 12 	 Cost: 4
+Destination: 13 
+First Shortest Path: 0 3 8 13 	 Cost: 3
+Second Shortest Path: 0 1 7 9 13 	 Cost: 4
+----------------------------------------------------
+For Source Node 1 the routing table is:
+Destination: 0 
+First Shortest Path: 1 0 	 Cost: 1
+Second Shortest Path: 1 2 0 	 Cost: 2
+Destination: 2 
+First Shortest Path: 1 2 	 Cost: 1
+Second Shortest Path: 1 0 2 	 Cost: 2
+Destination: 3 
+First Shortest Path: 1 0 3 	 Cost: 2
+Second Shortest Path: 1 2 5 4 3 	 Cost: 4
+Destination: 4 
+First Shortest Path: 1 0 3 4 	 Cost: 3
+Second Shortest Path: 1 2 5 4 	 Cost: 3
+Destination: 5 
+First Shortest Path: 1 2 5 	 Cost: 2
+Second Shortest Path: 1 0 3 4 5 	 Cost: 4
+Destination: 6 
+First Shortest Path: 1 7 6 	 Cost: 2
+Second Shortest Path: 1 0 3 4 6 	 Cost: 4
+Destination: 7 
+First Shortest Path: 1 7 	 Cost: 1
+Second Shortest Path: 1 0 3 4 6 7 	 Cost: 5
+Destination: 8 
+First Shortest Path: 1 0 3 8 	 Cost: 3
+Second Shortest Path: 1 7 9 11 8 	 Cost: 4
+Destination: 9 
+First Shortest Path: 1 7 9 	 Cost: 2
+Second Shortest Path: 1 2 5 10 9 	 Cost: 4
+Destination: 10 
+First Shortest Path: 1 2 5 10 	 Cost: 3
+Second Shortest Path: 1 7 9 10 	 Cost: 3
+Destination: 11 
+First Shortest Path: 1 7 9 11 	 Cost: 3
+Second Shortest Path: 1 0 3 8 11 	 Cost: 4
+Destination: 12 
+First Shortest Path: 1 2 5 12 	 Cost: 3
+Second Shortest Path: 1 7 9 11 12 	 Cost: 4
+Destination: 13 
+First Shortest Path: 1 7 9 13 	 Cost: 3
+Second Shortest Path: 1 0 3 8 13 	 Cost: 4
+----------------------------------------------------
+For Source Node 2 the routing table is:
+Destination: 0 
+First Shortest Path: 2 0 	 Cost: 1
+Second Shortest Path: 2 1 0 	 Cost: 2
+Destination: 1 
+First Shortest Path: 2 1 	 Cost: 1
+Second Shortest Path: 2 0 1 	 Cost: 2
+Destination: 3 
+First Shortest Path: 2 0 3 	 Cost: 2
+Second Shortest Path: 2 5 4 3 	 Cost: 3
+Destination: 4 
+First Shortest Path: 2 5 4 	 Cost: 2
+Second Shortest Path: 2 0 3 4 	 Cost: 3
+Destination: 5 
+First Shortest Path: 2 5 	 Cost: 1
+Second Shortest Path: 2 0 3 4 5 	 Cost: 4
+Destination: 6 
+First Shortest Path: 2 5 4 6 	 Cost: 3
+Second Shortest Path: 2 1 7 6 	 Cost: 3
+Destination: 7 
+First Shortest Path: 2 1 7 	 Cost: 2
+Second Shortest Path: 2 5 4 6 7 	 Cost: 4
+Destination: 8 
+First Shortest Path: 2 0 3 8 	 Cost: 3
+Second Shortest Path: 2 5 12 11 8 	 Cost: 4
+Destination: 9 
+First Shortest Path: 2 1 7 9 	 Cost: 3
+Second Shortest Path: 2 5 10 9 	 Cost: 3
+Destination: 10 
+First Shortest Path: 2 5 10 	 Cost: 2
+Second Shortest Path: 2 1 7 9 10 	 Cost: 4
+Destination: 11 
+First Shortest Path: 2 5 12 11 	 Cost: 3
+Second Shortest Path: 2 0 3 8 11 	 Cost: 4
+Destination: 12 
+First Shortest Path: 2 5 12 	 Cost: 2
+Second Shortest Path: 2 0 3 8 11 12 	 Cost: 5
+Destination: 13 
+First Shortest Path: 2 5 12 13 	 Cost: 3
+Second Shortest Path: 2 0 3 8 13 	 Cost: 4
+----------------------------------------------------
+For Source Node 3 the routing table is:
+Destination: 0 
+First Shortest Path: 3 0 	 Cost: 1
+Second Shortest Path: 3 4 5 2 0 	 Cost: 4
+Destination: 1 
+First Shortest Path: 3 0 1 	 Cost: 2
+Second Shortest Path: 3 4 5 2 1 	 Cost: 4
+Destination: 2 
+First Shortest Path: 3 0 2 	 Cost: 2
+Second Shortest Path: 3 4 5 2 	 Cost: 3
+Destination: 4 
+First Shortest Path: 3 4 	 Cost: 1
+Second Shortest Path: 3 0 2 5 4 	 Cost: 4
+Destination: 5 
+First Shortest Path: 3 4 5 	 Cost: 2
+Second Shortest Path: 3 0 2 5 	 Cost: 3
+Destination: 6 
+First Shortest Path: 3 4 6 	 Cost: 2
+Second Shortest Path: 3 0 1 7 6 	 Cost: 4
+Destination: 7 
+First Shortest Path: 3 0 1 7 	 Cost: 3
+Second Shortest Path: 3 4 6 7 	 Cost: 3
+Destination: 8 
+First Shortest Path: 3 8 	 Cost: 1
+Second Shortest Path: 3 4 5 12 11 8 	 Cost: 5
+Destination: 9 
+First Shortest Path: 3 8 11 9 	 Cost: 3
+Second Shortest Path: 3 0 1 7 9 	 Cost: 4
+Destination: 10 
+First Shortest Path: 3 4 5 10 	 Cost: 3
+Second Shortest Path: 3 8 11 9 10 	 Cost: 4
+Destination: 11 
+First Shortest Path: 3 8 11 	 Cost: 2
+Second Shortest Path: 3 4 5 12 11 	 Cost: 4
+Destination: 12 
+First Shortest Path: 3 4 5 12 	 Cost: 3
+Second Shortest Path: 3 8 11 12 	 Cost: 3
+Destination: 13 
+First Shortest Path: 3 8 13 	 Cost: 2
+Second Shortest Path: 3 4 5 12 13 	 Cost: 4
+----------------------------------------------------
+For Source Node 4 the routing table is:
+Destination: 0 
+First Shortest Path: 4 3 0 	 Cost: 2
+Second Shortest Path: 4 5 2 0 	 Cost: 3
+Destination: 1 
+First Shortest Path: 4 3 0 1 	 Cost: 3
+Second Shortest Path: 4 5 2 1 	 Cost: 3
+Destination: 2 
+First Shortest Path: 4 5 2 	 Cost: 2
+Second Shortest Path: 4 3 0 2 	 Cost: 3
+Destination: 3 
+First Shortest Path: 4 3 	 Cost: 1
+Second Shortest Path: 4 5 2 0 3 	 Cost: 4
+Destination: 5 
+First Shortest Path: 4 5 	 Cost: 1
+Second Shortest Path: 4 3 0 2 5 	 Cost: 4
+Destination: 6 
+First Shortest Path: 4 6 	 Cost: 1
+Second Shortest Path: 4 3 0 1 7 6 	 Cost: 5
+Destination: 7 
+First Shortest Path: 4 6 7 	 Cost: 2
+Second Shortest Path: 4 3 0 1 7 	 Cost: 4
+Destination: 8 
+First Shortest Path: 4 3 8 	 Cost: 2
+Second Shortest Path: 4 5 12 11 8 	 Cost: 4
+Destination: 9 
+First Shortest Path: 4 6 7 9 	 Cost: 3
+Second Shortest Path: 4 5 10 9 	 Cost: 3
+Destination: 10 
+First Shortest Path: 4 5 10 	 Cost: 2
+Second Shortest Path: 4 6 7 9 10 	 Cost: 4
+Destination: 11 
+First Shortest Path: 4 3 8 11 	 Cost: 3
+Second Shortest Path: 4 5 12 11 	 Cost: 3
+Destination: 12 
+First Shortest Path: 4 5 12 	 Cost: 2
+Second Shortest Path: 4 3 8 11 12 	 Cost: 4
+Destination: 13 
+First Shortest Path: 4 3 8 13 	 Cost: 3
+Second Shortest Path: 4 5 12 13 	 Cost: 3
+----------------------------------------------------
+For Source Node 5 the routing table is:
+Destination: 0 
+First Shortest Path: 5 2 0 	 Cost: 2
+Second Shortest Path: 5 4 3 0 	 Cost: 3
+Destination: 1 
+First Shortest Path: 5 2 1 	 Cost: 2
+Second Shortest Path: 5 4 3 0 1 	 Cost: 4
+Destination: 2 
+First Shortest Path: 5 2 	 Cost: 1
+Second Shortest Path: 5 4 3 0 2 	 Cost: 4
+Destination: 3 
+First Shortest Path: 5 4 3 	 Cost: 2
+Second Shortest Path: 5 2 0 3 	 Cost: 3
+Destination: 4 
+First Shortest Path: 5 4 	 Cost: 1
+Second Shortest Path: 5 2 0 3 4 	 Cost: 4
+Destination: 6 
+First Shortest Path: 5 4 6 	 Cost: 2
+Second Shortest Path: 5 2 1 7 6 	 Cost: 4
+Destination: 7 
+First Shortest Path: 5 2 1 7 	 Cost: 3
+Second Shortest Path: 5 4 6 7 	 Cost: 3
+Destination: 8 
+First Shortest Path: 5 4 3 8 	 Cost: 3
+Second Shortest Path: 5 12 11 8 	 Cost: 3
+Destination: 9 
+First Shortest Path: 5 10 9 	 Cost: 2
+Second Shortest Path: 5 12 11 9 	 Cost: 3
+Destination: 10 
+First Shortest Path: 5 10 	 Cost: 1
+Second Shortest Path: 5 12 11 9 10 	 Cost: 4
+Destination: 11 
+First Shortest Path: 5 12 11 	 Cost: 2
+Second Shortest Path: 5 10 9 11 	 Cost: 3
+Destination: 12 
+First Shortest Path: 5 12 	 Cost: 1
+Second Shortest Path: 5 10 9 11 12 	 Cost: 4
+Destination: 13 
+First Shortest Path: 5 12 13 	 Cost: 2
+Second Shortest Path: 5 10 9 13 	 Cost: 3
+----------------------------------------------------
+For Source Node 6 the routing table is:
+Destination: 0 
+First Shortest Path: 6 4 3 0 	 Cost: 3
+Second Shortest Path: 6 7 1 0 	 Cost: 3
+Destination: 1 
+First Shortest Path: 6 7 1 	 Cost: 2
+Second Shortest Path: 6 4 3 0 1 	 Cost: 4
+Destination: 2 
+First Shortest Path: 6 4 5 2 	 Cost: 3
+Second Shortest Path: 6 7 1 2 	 Cost: 3
+Destination: 3 
+First Shortest Path: 6 4 3 	 Cost: 2
+Second Shortest Path: 6 7 1 0 3 	 Cost: 4
+Destination: 4 
+First Shortest Path: 6 4 	 Cost: 1
+Second Shortest Path: 6 7 1 0 3 4 	 Cost: 5
+Destination: 5 
+First Shortest Path: 6 4 5 	 Cost: 2
+Second Shortest Path: 6 7 1 2 5 	 Cost: 4
+Destination: 7 
+First Shortest Path: 6 7 	 Cost: 1
+Second Shortest Path: 6 4 3 0 1 7 	 Cost: 5
+Destination: 8 
+First Shortest Path: 6 4 3 8 	 Cost: 3
+Second Shortest Path: 6 7 9 11 8 	 Cost: 4
+Destination: 9 
+First Shortest Path: 6 7 9 	 Cost: 2
+Second Shortest Path: 6 4 5 10 9 	 Cost: 4
+Destination: 10 
+First Shortest Path: 6 4 5 10 	 Cost: 3
+Second Shortest Path: 6 7 9 10 	 Cost: 3
+Destination: 11 
+First Shortest Path: 6 7 9 11 	 Cost: 3
+Second Shortest Path: 6 4 3 8 11 	 Cost: 4
+Destination: 12 
+First Shortest Path: 6 4 5 12 	 Cost: 3
+Second Shortest Path: 6 7 9 11 12 	 Cost: 4
+Destination: 13 
+First Shortest Path: 6 7 9 13 	 Cost: 3
+Second Shortest Path: 6 4 3 8 13 	 Cost: 4
+----------------------------------------------------
+For Source Node 7 the routing table is:
+Destination: 0 
+First Shortest Path: 7 1 0 	 Cost: 2
+Second Shortest Path: 7 6 4 3 0 	 Cost: 4
+Destination: 1 
+First Shortest Path: 7 1 	 Cost: 1
+Second Shortest Path: 7 6 4 3 0 1 	 Cost: 5
+Destination: 2 
+First Shortest Path: 7 1 2 	 Cost: 2
+Second Shortest Path: 7 6 4 5 2 	 Cost: 4
+Destination: 3 
+First Shortest Path: 7 1 0 3 	 Cost: 3
+Second Shortest Path: 7 6 4 3 	 Cost: 3
+Destination: 4 
+First Shortest Path: 7 6 4 	 Cost: 2
+Second Shortest Path: 7 1 0 3 4 	 Cost: 4
+Destination: 5 
+First Shortest Path: 7 1 2 5 	 Cost: 3
+Second Shortest Path: 7 6 4 5 	 Cost: 3
+Destination: 6 
+First Shortest Path: 7 6 	 Cost: 1
+Second Shortest Path: 7 1 0 3 4 6 	 Cost: 5
+Destination: 8 
+First Shortest Path: 7 9 11 8 	 Cost: 3
+Second Shortest Path: 7 1 0 3 8 	 Cost: 4
+Destination: 9 
+First Shortest Path: 7 9 	 Cost: 1
+Second Shortest Path: 7 1 2 5 10 9 	 Cost: 5
+Destination: 10 
+First Shortest Path: 7 9 10 	 Cost: 2
+Second Shortest Path: 7 1 2 5 10 	 Cost: 4
+Destination: 11 
+First Shortest Path: 7 9 11 	 Cost: 2
+Second Shortest Path: 7 1 0 3 8 11 	 Cost: 5
+Destination: 12 
+First Shortest Path: 7 9 11 12 	 Cost: 3
+Second Shortest Path: 7 1 2 5 12 	 Cost: 4
+Destination: 13 
+First Shortest Path: 7 9 13 	 Cost: 2
+Second Shortest Path: 7 1 0 3 8 13 	 Cost: 5
+----------------------------------------------------
+For Source Node 8 the routing table is:
+Destination: 0 
+First Shortest Path: 8 3 0 	 Cost: 2
+Second Shortest Path: 8 11 9 7 1 0 	 Cost: 5
+Destination: 1 
+First Shortest Path: 8 3 0 1 	 Cost: 3
+Second Shortest Path: 8 11 9 7 1 	 Cost: 4
+Destination: 2 
+First Shortest Path: 8 3 0 2 	 Cost: 3
+Second Shortest Path: 8 11 12 5 2 	 Cost: 4
+Destination: 3 
+First Shortest Path: 8 3 	 Cost: 1
+Second Shortest Path: 8 11 12 5 4 3 	 Cost: 5
+Destination: 4 
+First Shortest Path: 8 3 4 	 Cost: 2
+Second Shortest Path: 8 11 12 5 4 	 Cost: 4
+Destination: 5 
+First Shortest Path: 8 3 4 5 	 Cost: 3
+Second Shortest Path: 8 11 12 5 	 Cost: 3
+Destination: 6 
+First Shortest Path: 8 3 4 6 	 Cost: 3
+Second Shortest Path: 8 11 9 7 6 	 Cost: 4
+Destination: 7 
+First Shortest Path: 8 11 9 7 	 Cost: 3
+Second Shortest Path: 8 3 0 1 7 	 Cost: 4
+Destination: 9 
+First Shortest Path: 8 11 9 	 Cost: 2
+Second Shortest Path: 8 13 9 	 Cost: 2
+Destination: 10 
+First Shortest Path: 8 11 9 10 	 Cost: 3
+Second Shortest Path: 8 3 4 5 10 	 Cost: 4
+Destination: 11 
+First Shortest Path: 8 11 	 Cost: 1
+Second Shortest Path: 8 13 9 11 	 Cost: 3
+Destination: 12 
+First Shortest Path: 8 11 12 	 Cost: 2
+Second Shortest Path: 8 13 12 	 Cost: 2
+Destination: 13 
+First Shortest Path: 8 13 	 Cost: 1
+Second Shortest Path: 8 11 9 13 	 Cost: 3
+----------------------------------------------------
+For Source Node 9 the routing table is:
+Destination: 0 
+First Shortest Path: 9 7 1 0 	 Cost: 3
+Second Shortest Path: 9 10 5 2 0 	 Cost: 4
+Destination: 1 
+First Shortest Path: 9 7 1 	 Cost: 2
+Second Shortest Path: 9 10 5 2 1 	 Cost: 4
+Destination: 2 
+First Shortest Path: 9 7 1 2 	 Cost: 3
+Second Shortest Path: 9 10 5 2 	 Cost: 3
+Destination: 3 
+First Shortest Path: 9 11 8 3 	 Cost: 3
+Second Shortest Path: 9 7 1 0 3 	 Cost: 4
+Destination: 4 
+First Shortest Path: 9 7 6 4 	 Cost: 3
+Second Shortest Path: 9 10 5 4 	 Cost: 3
+Destination: 5 
+First Shortest Path: 9 10 5 	 Cost: 2
+Second Shortest Path: 9 11 12 5 	 Cost: 3
+Destination: 6 
+First Shortest Path: 9 7 6 	 Cost: 2
+Second Shortest Path: 9 10 5 4 6 	 Cost: 4
+Destination: 7 
+First Shortest Path: 9 7 	 Cost: 1
+Second Shortest Path: 9 10 5 2 1 7 	 Cost: 5
+Destination: 8 
+First Shortest Path: 9 11 8 	 Cost: 2
+Second Shortest Path: 9 13 8 	 Cost: 2
+Destination: 10 
+First Shortest Path: 9 10 	 Cost: 1
+Second Shortest Path: 9 11 12 5 10 	 Cost: 4
+Destination: 11 
+First Shortest Path: 9 11 	 Cost: 1
+Second Shortest Path: 9 13 8 11 	 Cost: 3
+Destination: 12 
+First Shortest Path: 9 11 12 	 Cost: 2
+Second Shortest Path: 9 13 12 	 Cost: 2
+Destination: 13 
+First Shortest Path: 9 13 	 Cost: 1
+Second Shortest Path: 9 11 8 13 	 Cost: 3
+----------------------------------------------------
+For Source Node 10 the routing table is:
+Destination: 0 
+First Shortest Path: 10 5 2 0 	 Cost: 3
+Second Shortest Path: 10 9 7 1 0 	 Cost: 4
+Destination: 1 
+First Shortest Path: 10 5 2 1 	 Cost: 3
+Second Shortest Path: 10 9 7 1 	 Cost: 3
+Destination: 2 
+First Shortest Path: 10 5 2 	 Cost: 2
+Second Shortest Path: 10 9 7 1 2 	 Cost: 4
+Destination: 3 
+First Shortest Path: 10 5 4 3 	 Cost: 3
+Second Shortest Path: 10 9 11 8 3 	 Cost: 4
+Destination: 4 
+First Shortest Path: 10 5 4 	 Cost: 2
+Second Shortest Path: 10 9 7 6 4 	 Cost: 4
+Destination: 5 
+First Shortest Path: 10 5 	 Cost: 1
+Second Shortest Path: 10 9 11 12 5 	 Cost: 4
+Destination: 6 
+First Shortest Path: 10 5 4 6 	 Cost: 3
+Second Shortest Path: 10 9 7 6 	 Cost: 3
+Destination: 7 
+First Shortest Path: 10 9 7 	 Cost: 2
+Second Shortest Path: 10 5 2 1 7 	 Cost: 4
+Destination: 8 
+First Shortest Path: 10 9 11 8 	 Cost: 3
+Second Shortest Path: 10 5 4 3 8 	 Cost: 4
+Destination: 9 
+First Shortest Path: 10 9 	 Cost: 1
+Second Shortest Path: 10 5 12 11 9 	 Cost: 4
+Destination: 11 
+First Shortest Path: 10 9 11 	 Cost: 2
+Second Shortest Path: 10 5 12 11 	 Cost: 3
+Destination: 12 
+First Shortest Path: 10 5 12 	 Cost: 2
+Second Shortest Path: 10 9 11 12 	 Cost: 3
+Destination: 13 
+First Shortest Path: 10 9 13 	 Cost: 2
+Second Shortest Path: 10 5 12 13 	 Cost: 3
+----------------------------------------------------
+For Source Node 11 the routing table is:
+Destination: 0 
+First Shortest Path: 11 8 3 0 	 Cost: 3
+Second Shortest Path: 11 9 7 1 0 	 Cost: 4
+Destination: 1 
+First Shortest Path: 11 9 7 1 	 Cost: 3
+Second Shortest Path: 11 8 3 0 1 	 Cost: 4
+Destination: 2 
+First Shortest Path: 11 12 5 2 	 Cost: 3
+Second Shortest Path: 11 8 3 0 2 	 Cost: 4
+Destination: 3 
+First Shortest Path: 11 8 3 	 Cost: 2
+Second Shortest Path: 11 12 5 4 3 	 Cost: 4
+Destination: 4 
+First Shortest Path: 11 8 3 4 	 Cost: 3
+Second Shortest Path: 11 12 5 4 	 Cost: 3
+Destination: 5 
+First Shortest Path: 11 12 5 	 Cost: 2
+Second Shortest Path: 11 9 10 5 	 Cost: 3
+Destination: 6 
+First Shortest Path: 11 9 7 6 	 Cost: 3
+Second Shortest Path: 11 8 3 4 6 	 Cost: 4
+Destination: 7 
+First Shortest Path: 11 9 7 	 Cost: 2
+Second Shortest Path: 11 8 3 0 1 7 	 Cost: 5
+Destination: 8 
+First Shortest Path: 11 8 	 Cost: 1
+Second Shortest Path: 11 9 13 8 	 Cost: 3
+Destination: 9 
+First Shortest Path: 11 9 	 Cost: 1
+Second Shortest Path: 11 8 13 9 	 Cost: 3
+Destination: 10 
+First Shortest Path: 11 9 10 	 Cost: 2
+Second Shortest Path: 11 12 5 10 	 Cost: 3
+Destination: 12 
+First Shortest Path: 11 12 	 Cost: 1
+Second Shortest Path: 11 8 13 12 	 Cost: 3
+Destination: 13 
+First Shortest Path: 11 8 13 	 Cost: 2
+Second Shortest Path: 11 9 13 	 Cost: 2
+----------------------------------------------------
+For Source Node 12 the routing table is:
+Destination: 0 
+First Shortest Path: 12 5 2 0 	 Cost: 3
+Second Shortest Path: 12 11 8 3 0 	 Cost: 4
+Destination: 1 
+First Shortest Path: 12 5 2 1 	 Cost: 3
+Second Shortest Path: 12 11 9 7 1 	 Cost: 4
+Destination: 2 
+First Shortest Path: 12 5 2 	 Cost: 2
+Second Shortest Path: 12 11 8 3 0 2 	 Cost: 5
+Destination: 3 
+First Shortest Path: 12 5 4 3 	 Cost: 3
+Second Shortest Path: 12 11 8 3 	 Cost: 3
+Destination: 4 
+First Shortest Path: 12 5 4 	 Cost: 2
+Second Shortest Path: 12 11 8 3 4 	 Cost: 4
+Destination: 5 
+First Shortest Path: 12 5 	 Cost: 1
+Second Shortest Path: 12 11 9 10 5 	 Cost: 4
+Destination: 6 
+First Shortest Path: 12 5 4 6 	 Cost: 3
+Second Shortest Path: 12 11 9 7 6 	 Cost: 4
+Destination: 7 
+First Shortest Path: 12 11 9 7 	 Cost: 3
+Second Shortest Path: 12 5 2 1 7 	 Cost: 4
+Destination: 8 
+First Shortest Path: 12 11 8 	 Cost: 2
+Second Shortest Path: 12 13 8 	 Cost: 2
+Destination: 9 
+First Shortest Path: 12 11 9 	 Cost: 2
+Second Shortest Path: 12 13 9 	 Cost: 2
+Destination: 10 
+First Shortest Path: 12 5 10 	 Cost: 2
+Second Shortest Path: 12 11 9 10 	 Cost: 3
+Destination: 11 
+First Shortest Path: 12 11 	 Cost: 1
+Second Shortest Path: 12 13 8 11 	 Cost: 3
+Destination: 13 
+First Shortest Path: 12 13 	 Cost: 1
+Second Shortest Path: 12 11 8 13 	 Cost: 3
+----------------------------------------------------
+For Source Node 13 the routing table is:
+Destination: 0 
+First Shortest Path: 13 8 3 0 	 Cost: 3
+Second Shortest Path: 13 9 7 1 0 	 Cost: 4
+Destination: 1 
+First Shortest Path: 13 9 7 1 	 Cost: 3
+Second Shortest Path: 13 8 3 0 1 	 Cost: 4
+Destination: 2 
+First Shortest Path: 13 12 5 2 	 Cost: 3
+Second Shortest Path: 13 8 3 0 2 	 Cost: 4
+Destination: 3 
+First Shortest Path: 13 8 3 	 Cost: 2
+Second Shortest Path: 13 12 5 4 3 	 Cost: 4
+Destination: 4 
+First Shortest Path: 13 8 3 4 	 Cost: 3
+Second Shortest Path: 13 12 5 4 	 Cost: 3
+Destination: 5 
+First Shortest Path: 13 12 5 	 Cost: 2
+Second Shortest Path: 13 9 10 5 	 Cost: 3
+Destination: 6 
+First Shortest Path: 13 9 7 6 	 Cost: 3
+Second Shortest Path: 13 8 3 4 6 	 Cost: 4
+Destination: 7 
+First Shortest Path: 13 9 7 	 Cost: 2
+Second Shortest Path: 13 8 3 0 1 7 	 Cost: 5
+Destination: 8 
+First Shortest Path: 13 8 	 Cost: 1
+Second Shortest Path: 13 9 11 8 	 Cost: 3
+Destination: 9 
+First Shortest Path: 13 9 	 Cost: 1
+Second Shortest Path: 13 8 11 9 	 Cost: 3
+Destination: 10 
+First Shortest Path: 13 9 10 	 Cost: 2
+Second Shortest Path: 13 12 5 10 	 Cost: 3
+Destination: 11 
+First Shortest Path: 13 8 11 	 Cost: 2
+Second Shortest Path: 13 9 11 	 Cost: 2
+Destination: 12 
+First Shortest Path: 13 12 	 Cost: 1
+Second Shortest Path: 13 8 11 12 	 Cost: 3
+----------------------------------------------------

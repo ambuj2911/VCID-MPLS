@@ -1,0 +1,403 @@
+Connection ID 0
+Source: 13	Destination:  5
+The path used here is: 
+13 12 5 
+ The path cost is 2
+The label list is: 
+400	401
+Connection ID 1
+Source: 7	Destination:  4
+The path used here is: 
+7 6 4 
+ The path cost is 2
+The label list is: 
+402	403
+Connection ID 2
+Source: 4	Destination:  5
+The path used here is: 
+4 5 
+ The path cost is 1
+The label list is: 
+404
+Connection ID 3
+Source: 6	Destination:  2
+The path used here is: 
+6 4 5 2 
+ The path cost is 3
+The label list is: 
+405	406	407
+Connection ID 4
+Source: 2	Destination:  10
+2 1 7 9 10 
+ The path cost is: 4
+The label list is: 
+408	409	410	411	
+Connection ID 5
+Source: 8	Destination:  12
+The path used here is: 
+8 11 12 
+ The path cost is 2
+The label list is: 
+412	413
+Connection ID 6
+Source: 3	Destination:  13
+The path used here is: 
+3 8 13 
+ The path cost is 2
+The label list is: 
+414	415
+Connection ID 7
+Source: 6	Destination:  3
+The path used here is: 
+6 4 3 
+ The path cost is 2
+The label list is: 
+416	417
+Connection ID 8
+Source: 2	Destination:  9
+The path used here is: 
+2 1 7 9 
+ The path cost is 3
+The label list is: 
+418	419	420
+Connection ID 9
+Source: 9	Destination:  5
+The path used here is: 
+9 10 5 
+ The path cost is 2
+The label list is: 
+421	422
+Connection ID 10
+Source: 7	Destination:  0
+The path used here is: 
+7 1 0 
+ The path cost is 2
+The label list is: 
+423	424
+Connection ID 11
+Source: 0	Destination:  6
+The path used here is: 
+0 3 4 6 
+ The path cost is 3
+The label list is: 
+425	426	427
+Connection ID 12
+Source: 10	Destination:  3
+Connection ID 13
+Source: 2	Destination:  11
+The path used here is: 
+2 5 12 11 
+ The path cost is 3
+The label list is: 
+428	429	430
+Connection ID 14
+Source: 6	Destination:  11
+Connection ID 15
+Source: 11	Destination:  5
+The path used here is: 
+11 12 5 
+ The path cost is 2
+The label list is: 
+431	432
+Connection ID 16
+Source: 9	Destination:  3
+Connection ID 17
+Source: 8	Destination:  13
+The path used here is: 
+8 13 
+ The path cost is 1
+The label list is: 
+433
+Connection ID 18
+Source: 9	Destination:  0
+Connection ID 19
+Source: 6	Destination:  11
+Connection ID 20
+Source: 6	Destination:  2
+6 7 1 2 
+ The path cost is: 3
+The label list is: 
+434	435	436	
+Connection ID 21
+Source: 8	Destination:  4
+Connection ID 22
+Source: 13	Destination:  11
+The path used here is: 
+13 8 11 
+ The path cost is 2
+The label list is: 
+437	438
+Connection ID 23
+Source: 4	Destination:  13
+Connection ID 24
+Source: 6	Destination:  4
+The path used here is: 
+6 4 
+ The path cost is 1
+The label list is: 
+439
+Connection ID 25
+Source: 4	Destination:  11
+Connection ID 26
+Source: 1	Destination:  6
+The path used here is: 
+1 7 6 
+ The path cost is 2
+The label list is: 
+440	441
+Connection ID 27
+Source: 9	Destination:  10
+The path used here is: 
+9 10 
+ The path cost is 1
+The label list is: 
+442
+Connection ID 28
+Source: 1	Destination:  8
+Connection ID 29
+Source: 4	Destination:  13
+4 5 12 13 
+ The path cost is: 3
+The label list is: 
+443	444	445	
+Connection ID 30
+Source: 6	Destination:  13
+Connection ID 31
+Source: 2	Destination:  1
+The path used here is: 
+2 1 
+ The path cost is 1
+The label list is: 
+446
+Connection ID 32
+Source: 2	Destination:  5
+Connection ID 33
+Source: 0	Destination:  10
+Connection ID 34
+Source: 5	Destination:  10
+The path used here is: 
+5 10 
+ The path cost is 1
+The label list is: 
+447
+Connection ID 35
+Source: 4	Destination:  8
+Connection ID 36
+Source: 3	Destination:  13
+Connection ID 37
+Source: 11	Destination:  3
+Connection ID 38
+Source: 4	Destination:  13
+Connection ID 39
+Source: 1	Destination:  0
+The path used here is: 
+1 0 
+ The path cost is 1
+The label list is: 
+448
+Connection ID 40
+Source: 5	Destination:  4
+Connection ID 41
+Source: 13	Destination:  2
+Connection ID 42
+Source: 1	Destination:  10
+Connection ID 43
+Source: 0	Destination:  4
+The path used here is: 
+0 3 4 
+ The path cost is 2
+The label list is: 
+449	450
+Connection ID 44
+Source: 1	Destination:  4
+The path used here is: 
+1 0 3 4 
+ The path cost is 3
+The label list is: 
+451	452	453
+Connection ID 45
+Source: 3	Destination:  6
+The path used here is: 
+3 4 6 
+ The path cost is 2
+The label list is: 
+454	455
+Connection ID 46
+Source: 2	Destination:  0
+The path used here is: 
+2 0 
+ The path cost is 1
+The label list is: 
+456
+Connection ID 47
+Source: 2	Destination:  8
+Connection ID 48
+Source: 5	Destination:  1
+Connection ID 49
+Source: 6	Destination:  0
+6 7 1 0 
+ The path cost is: 3
+The label list is: 
+457	458	459	
+Connection ID 50
+Source: 3	Destination:  4
+The path used here is: 
+3 4 
+ The path cost is 1
+The label list is: 
+460
+Connection ID 51
+Source: 4	Destination:  5
+Connection ID 52
+Source: 9	Destination:  6
+Connection ID 53
+Source: 0	Destination:  13
+The path used here is: 
+0 3 8 13 
+ The path cost is 3
+The label list is: 
+461	462	463
+Connection ID 54
+Source: 6	Destination:  11
+6 4 3 8 11 
+ The path cost is: 4
+The label list is: 
+464	465	466	467	
+Connection ID 55
+Source: 9	Destination:  10
+The path used here is: 
+9 10 
+ The path cost is 1
+The label list is: 
+468
+Connection ID 56
+Source: 1	Destination:  12
+The path used here is: 
+1 2 5 12 
+ The path cost is 3
+The label list is: 
+469	470	471
+Connection ID 57
+Source: 7	Destination:  3
+Connection ID 58
+Source: 2	Destination:  4
+Connection ID 59
+Source: 11	Destination:  6
+Connection ID 60
+Source: 2	Destination:  11
+Connection ID 61
+Source: 3	Destination:  10
+Connection ID 62
+Source: 9	Destination:  0
+Connection ID 63
+Source: 11	Destination:  1
+Connection ID 64
+Source: 2	Destination:  10
+Connection ID 65
+Source: 13	Destination:  1
+Connection ID 66
+Source: 12	Destination:  7
+Connection ID 67
+Source: 7	Destination:  0
+The path used here is: 
+7 1 0 
+ The path cost is 2
+The label list is: 
+472	473
+Connection ID 68
+Source: 10	Destination:  11
+The path used here is: 
+10 9 11 
+ The path cost is 2
+The label list is: 
+474	475
+Connection ID 69
+Source: 8	Destination:  6
+Connection ID 70
+Source: 2	Destination:  8
+Connection ID 71
+Source: 10	Destination:  6
+Connection ID 72
+Source: 11	Destination:  2
+Connection ID 73
+Source: 1	Destination:  13
+Connection ID 74
+Source: 13	Destination:  11
+13 9 11 
+ The path cost is: 2
+The label list is: 
+476	477	
+Connection ID 75
+Source: 2	Destination:  4
+Connection ID 76
+Source: 11	Destination:  6
+Connection ID 77
+Source: 6	Destination:  13
+Connection ID 78
+Source: 11	Destination:  8
+The path used here is: 
+11 8 
+ The path cost is 1
+The label list is: 
+478
+Connection ID 79
+Source: 4	Destination:  6
+Connection ID 80
+Source: 11	Destination:  7
+Connection ID 81
+Source: 3	Destination:  0
+Connection ID 82
+Source: 1	Destination:  5
+Connection ID 83
+Source: 6	Destination:  11
+Connection ID 84
+Source: 10	Destination:  6
+Connection ID 85
+Source: 0	Destination:  12
+Connection ID 86
+Source: 7	Destination:  5
+Connection ID 87
+Source: 5	Destination:  4
+Connection ID 88
+Source: 13	Destination:  7
+Connection ID 89
+Source: 0	Destination:  11
+Connection ID 90
+Source: 5	Destination:  4
+Connection ID 91
+Source: 7	Destination:  5
+Connection ID 92
+Source: 7	Destination:  3
+Connection ID 93
+Source: 12	Destination:  11
+The path used here is: 
+12 11 
+ The path cost is 1
+The label list is: 
+479
+Connection ID 94
+Source: 0	Destination:  1
+0 2 1 
+ The path cost is: 2
+The label list is: 
+480	481	
+Connection ID 95
+Source: 13	Destination:  7
+Connection ID 96
+Source: 3	Destination:  5
+Connection ID 97
+Source: 9	Destination:  8
+The path used here is: 
+9 11 8 
+ The path cost is 2
+The label list is: 
+482	483
+Connection ID 98
+Source: 2	Destination:  5
+Connection ID 99
+Source: 0	Destination:  4
+The path used here is: 
+0 3 4 
+ The path cost is 2
+The label list is: 
+484	485
